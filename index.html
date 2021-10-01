@@ -8,7 +8,62 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Phispace</title>
   </head>
-  <body></body>
+  <body class="bg-gray-800 text-purple-50">
+    <div class="container flex flex-col items-center w-full mx-auto">
+      <nav
+        class="
+          relative
+          flex flex-col
+          justify-center
+          items-center
+          w-full
+          py-4
+          px-2
+        "
+      >
+        <h1 class="w-full h-5 relative text-2xl font-bold">
+          <span class="absolute right-1/2 mr-20">phi</span>
+          <span class="absolute left-1/2 ml-20">space</span>
+        </h1>
+        <div class="w-full h-0.5 my-4 bg-gray-500"></div>
+        <div class="w-full relative -top-4">
+          <ul
+            class="
+              mr-16
+              flex flex-wrap
+              justify-start
+              absolute
+              left-1/2
+              right-0
+              ml-20
+            "
+          >
+            <li class="text-xl m-1"><a href="#">home</a></li>
+            <li class="text-xl m-1"><a href="#">working</a></li>
+          </ul>
+          <ul
+            class="
+              ml-16
+              flex flex-wrap
+              justify-end
+              absolute
+              right-1/2
+              left-0
+              mr-20
+            "
+          >
+            <li class="text-xl m-1"><a href="#">contact</a></li>
+            <li class="text-xl m-1"><a href="#">about</a></li>
+          </ul>
+        </div>
+        <img
+          class="absolute top-1 w-24 bg-gray-800 p-2 mb-10"
+          src="./assets/Logo2_schlagschatten_narrow.png"
+          alt=""
+        />
+      </nav>
+    </div>
+  </body>
 </html>
