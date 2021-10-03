@@ -33,20 +33,6 @@
           class="
             mr-16
             flex flex-wrap
-            justify-start
-            absolute
-            left-1/2
-            right-0
-            ml-20
-          "
-        >
-          <li class="text-xl m-1"><a href="#">&gt;home</a></li>
-          <li class="text-xl m-1"><a href="#">&gt;work</a></li>
-        </ul>
-        <ul
-          class="
-            ml-16
-            flex flex-wrap
             justify-end
             absolute
             right-1/2
@@ -54,8 +40,22 @@
             mr-20
           "
         >
-          <li class="text-xl m-1"><a href="#">&gt;contact</a></li>
-          <li class="text-xl m-1"><a href="#">&gt;about</a></li>
+          <li class="text-xl m-1"><a href="">&gt;home</a></li>
+          <li class="text-xl m-1"><a href="#projects">&gt;projects</a></li>
+        </ul>
+        <ul
+          class="
+            ml-16
+            flex flex-wrap
+            justify-start
+            absolute
+            left-1/2
+            right-0
+            ml-20
+          "
+        >
+          <li class="text-xl m-1"><a href="#about">&gt;staff</a></li>
+          <li class="text-xl m-1"><a href="#contact">&gt;contact</a></li>
         </ul>
       </div>
       <img
@@ -67,7 +67,7 @@
 
     <main class="m-5 mt-10 max-w-screen-md">
       <!-- landing section -->
-      <section>
+      <section id="">
         <h2 class="text-5xl mt-32 leading-tight font-bold uppercase">
           We create your digital
         </h2>
@@ -112,87 +112,15 @@
                 font-bold
                 uppercase
               "
-              href="#"
+              href="#contact"
               >&gt;hire</a
             >
           </div>
         </div>
       </section>
 
-      <!-- personal info section  -->
-      <section class="mt-32 flex flex-col items-center">
-        <h2 class="text-4xl mb-12 leading-tight font-bold uppercase">
-          This is us
-        </h2>
-        <div class="flex flex-col items-center my-8">
-          <div
-            class="
-              p-5
-              rounded-full
-              bg-gradient-to-bl
-              from-green-400
-              via-blue-600
-              to-purple-900
-            "
-          >
-            <div class="p-3 bg-gray-800 rounded-full">
-              <img
-                class="w-40 h-40 object-cover rounded-full"
-                src="./assets/profileImageSmall.jpg"
-                alt="Felix Kirchhoff"
-              />
-            </div>
-          </div>
-          <div class="mt-12">
-            <h3 class="text-xl uppercase font-bold">
-              Felix &lt;phi&gt; Kirchhoff
-            </h3>
-            <p class="my-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
-              eveniet sapiente, voluptates molestiae error exercitationem, enim
-              assumenda quaerat laborum dolores. Cumque ad atque veniam sequi
-              adipisci quis earum officiis, quaerat libero saepe fuga rerum,
-              fugit aliquid ducimus.
-            </p>
-          </div>
-        </div>
-
-        <div class="flex flex-col items-center my-8">
-          <div
-            class="
-              p-5
-              rounded-full
-              bg-gradient-to-br
-              from-red-200
-              via-pink-500
-              to-purple-900
-            "
-          >
-            <div class="p-3 bg-gray-800 rounded-full">
-              <img
-                class="w-40 h-40 object-cover rounded-full"
-                src="./assets/doge.png"
-                alt="Felix Kirchhoff"
-              />
-            </div>
-          </div>
-          <div class="mt-12">
-            <h3 class="text-xl uppercase font-bold">Doge &lt;the coin&gt;</h3>
-            <p class="my-3">
-              Lorem wow ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
-              eveniet sapiente, voluptates so much molestiae error
-              exercitationem, enim assumenda quaerat laborum dolores. Cumque ad
-              atque veniam sequi adipisci quis earum officiis, quaerat libero
-              saepe fuga rerum, fugit aliquid ducimus.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <!-- projects section  -->
-      <section class="mt-24">
+      <section id="projects" class="mt-32 flex flex-col items-center">
         <h2
           class="
             mb-16
@@ -350,6 +278,181 @@
             </a>
           </li>
         </ul>
+      </section>
+      <!-- personal info section  -->
+      <section id="about" class="mt-32 flex flex-col items-center">
+        <h2 class="text-4xl mb-12 leading-tight font-bold uppercase">
+          This is us
+        </h2>
+        <div class="flex flex-col items-center my-8">
+          <div
+            class="
+              p-5
+              rounded-full
+              bg-gradient-to-bl
+              from-green-400
+              via-blue-600
+              to-purple-900
+            "
+          >
+            <div class="p-3 bg-gray-800 rounded-full">
+              <img
+                class="w-40 h-40 object-cover rounded-full"
+                src="./assets/profileImageSmall.jpg"
+                alt="Felix Kirchhoff"
+              />
+            </div>
+          </div>
+          <div class="mt-12">
+            <h3 class="text-xl uppercase font-bold">
+              Felix &lt;phi&gt; Kirchhoff
+            </h3>
+            <p class="my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
+              eveniet sapiente, voluptates molestiae error exercitationem, enim
+              assumenda quaerat laborum dolores. Cumque ad atque veniam sequi
+              adipisci quis earum officiis, quaerat libero saepe fuga rerum,
+              fugit aliquid ducimus.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center my-8">
+          <div
+            class="
+              p-5
+              rounded-full
+              bg-gradient-to-br
+              from-red-200
+              via-pink-500
+              to-purple-900
+            "
+          >
+            <div class="p-3 bg-gray-800 rounded-full">
+              <img
+                class="w-40 h-40 object-cover rounded-full"
+                src="./assets/doge.png"
+                alt="Felix Kirchhoff"
+              />
+            </div>
+          </div>
+          <div class="mt-12">
+            <h3 class="text-xl uppercase font-bold">Doge &lt;the coin&gt;</h3>
+            <p class="my-3">
+              Lorem wow ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
+              eveniet sapiente, voluptates so much molestiae error
+              exercitationem, enim assumenda quaerat laborum dolores. Cumque ad
+              atque veniam sequi adipisci quis earum officiis, quaerat libero
+              saepe fuga rerum, fugit aliquid ducimus.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section id="contact" class="mt-24 flex flex-col items-center">
+        <div
+          class="
+            p-5
+            w-full
+            bg-gradient-to-br
+            from-red-400
+            via-pink-600
+            to-purple-900
+          "
+        >
+          <div class="relative w-full h-full bg-gray-800">
+            <h2
+              class="
+                absolute
+                -top-8
+                -left-7
+                text-4xl
+                leading-tight
+                font-bold
+                uppercase
+              "
+            >
+              Contact Us
+            </h2>
+            <form class="flex flex-col items-center p-4" action="">
+              <label class="hidden sr-only" for="name">Name</label>
+              <input
+                class="
+                  bg-transparent
+                  w-full
+                  p-1
+                  my-2
+                  border-b-2
+                  focus:outline-none focus:border-green-300
+                "
+                id="name"
+                required
+                placeholder="your name"
+              />
+
+              <label class="hidden sr-only" for="company">Company</label>
+              <input
+                class="
+                  bg-transparent
+                  w-full
+                  p-1
+                  my-2
+                  border-b-2
+                  focus:outline-none focus:border-green-300
+                "
+                id="company"
+                placeholder="your company"
+              />
+              <label class="hidden sr-only" for="mail">E-Mail</label>
+              <input
+                class="
+                  bg-transparent
+                  w-full
+                  p-1
+                  my-2
+                  border-b-2
+                  focus:outline-none focus:border-green-300
+                "
+                id="mail"
+                type="mail"
+                required
+                placeholder="your e-mail"
+              />
+              <label class="hidden sr-only" for="msg">Message</label>
+              <textarea
+                class="
+                  bg-transparent
+                  w-full
+                  p-1
+                  mt-4
+                  border-2
+                  focus:outline-none focus:border-green-300
+                "
+                id="msg"
+                rows="6"
+                placeholder="your message"
+                required
+              ></textarea>
+              <button
+                class="
+                  absolute
+                  -bottom-8
+                  -right-7
+                  text-4xl
+                  leading-tight
+                  font-bold
+                  uppercase
+                "
+                type="submit"
+              >
+                >Send
+              </button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
   </body>
