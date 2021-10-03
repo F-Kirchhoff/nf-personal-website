@@ -68,7 +68,7 @@
     <main class="m-5 mt-10 max-w-screen-md">
       <!-- landing section -->
       <section id="">
-        <h2 class="text-5xl mt-32 leading-tight font-bold uppercase">
+        <h2 class="text-5xl mt-32 leading-tight font-bold uppercase md:w-32">
           We create your digital
         </h2>
         <div
@@ -78,12 +78,13 @@
             mx-auto
             z-10
             w-80
-            h-80
+            h-96
             p-5
             bg-gradient-to-br
             from-pink-700
             via-red-500
             to-yellow-500
+            md:-top-14 md:left-20 md:w-3/5 md:h-80
           "
         >
           <div class="relative w-full h-full bg-gray-800">
@@ -133,17 +134,17 @@
         >
           Projects
         </h2>
-        <ul class="flex flex-wrap justify-evenly">
+        <ul class="flex flex-wrap justify-center">
           <li
             class="
               p-4
-              m-5
+              m-7
               bg-gradient-to-bl
-              from-yellow-400
+              from-yellow-100
               via-green-900
               to-gray-900
               shadow-lg
-              hover:from-yellow-300 hover:via-green-700 hover:to-gray-900
+              hover:from-yellow-200 hover:via-green-700 hover:to-gray-900
             "
           >
             <a
@@ -175,7 +176,7 @@
           <li
             class="
               p-4
-              m-5
+              m-7
               bg-gradient-to-br
               from-yellow-700
               via-pink-900
@@ -210,7 +211,7 @@
           <li
             class="
               p-4
-              m-5
+              m-7
               bg-gradient-to-br
               from-green-600
               via-blue-800
@@ -245,7 +246,7 @@
           <li
             class="
               p-4
-              m-5
+              m-7
               bg-gradient-to-bl
               from-pink-800
               via-blue-900
@@ -280,73 +281,75 @@
         </ul>
       </section>
       <!-- personal info section  -->
-      <section id="about" class="mt-32 flex flex-col items-center">
+      <section id="about" class="mt-32 w-full flex flex-col items-center">
         <h2 class="text-4xl mb-12 leading-tight font-bold uppercase">
           This is us
         </h2>
-        <div class="flex flex-col items-center my-8">
-          <div
-            class="
-              p-5
-              rounded-full
-              bg-gradient-to-bl
-              from-green-400
-              via-blue-600
-              to-purple-900
-            "
-          >
-            <div class="p-3 bg-gray-800 rounded-full">
-              <img
-                class="w-40 h-40 object-cover rounded-full"
-                src="./assets/profileImageSmall.jpg"
-                alt="Felix Kirchhoff"
-              />
+        <div class="w-full p-5 flex flex-wrap justify-evenly">
+          <div class="flex flex-col items-center my-8 lg:w-2/5">
+            <div
+              class="
+                p-5
+                rounded-full
+                bg-gradient-to-bl
+                from-green-400
+                via-blue-600
+                to-purple-900
+              "
+            >
+              <div class="p-3 bg-gray-800 rounded-full">
+                <img
+                  class="w-40 h-40 object-cover rounded-full"
+                  src="./assets/profileImageSmall.jpg"
+                  alt="Felix Kirchhoff"
+                />
+              </div>
+            </div>
+            <div class="mt-12">
+              <h3 class="text-xl uppercase font-bold">
+                Felix &lt;phi&gt; Kirchhoff
+              </h3>
+              <p class="my-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
+                eveniet sapiente, voluptates molestiae error exercitationem,
+                enim assumenda quaerat laborum dolores. Cumque ad atque veniam
+                sequi adipisci quis earum officiis, quaerat libero saepe fuga
+                rerum, fugit aliquid ducimus.
+              </p>
             </div>
           </div>
-          <div class="mt-12">
-            <h3 class="text-xl uppercase font-bold">
-              Felix &lt;phi&gt; Kirchhoff
-            </h3>
-            <p class="my-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
-              eveniet sapiente, voluptates molestiae error exercitationem, enim
-              assumenda quaerat laborum dolores. Cumque ad atque veniam sequi
-              adipisci quis earum officiis, quaerat libero saepe fuga rerum,
-              fugit aliquid ducimus.
-            </p>
-          </div>
-        </div>
 
-        <div class="flex flex-col items-center my-8">
-          <div
-            class="
-              p-5
-              rounded-full
-              bg-gradient-to-br
-              from-red-200
-              via-pink-500
-              to-purple-900
-            "
-          >
-            <div class="p-3 bg-gray-800 rounded-full">
-              <img
-                class="w-40 h-40 object-cover rounded-full"
-                src="./assets/doge.png"
-                alt="Felix Kirchhoff"
-              />
+          <div class="flex flex-col items-center my-8 lg:w-2/5">
+            <div
+              class="
+                p-5
+                rounded-full
+                bg-gradient-to-br
+                from-red-200
+                via-pink-500
+                to-purple-900
+              "
+            >
+              <div class="p-3 bg-gray-800 rounded-full">
+                <img
+                  class="w-40 h-40 object-cover rounded-full"
+                  src="./assets/doge.png"
+                  alt="Felix Kirchhoff"
+                />
+              </div>
             </div>
-          </div>
-          <div class="mt-12">
-            <h3 class="text-xl uppercase font-bold">Doge &lt;the coin&gt;</h3>
-            <p class="my-3">
-              Lorem wow ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
-              eveniet sapiente, voluptates so much molestiae error
-              exercitationem, enim assumenda quaerat laborum dolores. Cumque ad
-              atque veniam sequi adipisci quis earum officiis, quaerat libero
-              saepe fuga rerum, fugit aliquid ducimus.
-            </p>
+            <div class="mt-12">
+              <h3 class="text-xl uppercase font-bold">Doge &lt;the coin&gt;</h3>
+              <p class="my-3">
+                Lorem wow ipsum dolor sit amet consectetur adipisicing elit.
+                Ullam beatae nobis nostrum ut tempore earum mollitia veritatis
+                qui aut eveniet sapiente, voluptates so much molestiae error
+                exercitationem, enim assumenda quaerat laborum dolores. Cumque
+                ad atque veniam sequi adipisci quis earum officiis, quaerat
+                libero saepe fuga rerum, fugit aliquid ducimus.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -431,6 +434,7 @@
                   mt-4
                   border-2
                   focus:outline-none focus:border-green-300
+                  resize-none
                 "
                 id="msg"
                 rows="6"
