@@ -10,184 +10,338 @@
     />
     <title>Phispace</title>
   </head>
-  <body class="bg-gray-800 text-purple-50">
-    <div class="container flex flex-col items-center w-full mx-auto">
-      <nav
-        class="
-          relative
-          flex flex-col
-          justify-center
-          items-center
-          w-full
-          py-4
-          px-2
-        "
-      >
-        <h1 class="w-full h-5 relative text-2xl font-bold">
-          <span class="absolute right-1/2 mr-20">phi</span>
-          <span class="absolute left-1/2 ml-20">space</span>
-        </h1>
-        <div class="w-full h-0.5 my-4 bg-gray-500"></div>
-        <div class="w-full relative -top-4">
-          <ul
-            class="
-              mr-16
-              flex flex-wrap
-              justify-start
-              absolute
-              left-1/2
-              right-0
-              ml-20
-            "
-          >
-            <li class="text-xl m-1"><a href="#">&gt;home</a></li>
-            <li class="text-xl m-1"><a href="#">&gt;work</a></li>
-          </ul>
-          <ul
-            class="
-              ml-16
-              flex flex-wrap
-              justify-end
-              absolute
-              right-1/2
-              left-0
-              mr-20
-            "
-          >
-            <li class="text-xl m-1"><a href="#">&gt;contact</a></li>
-            <li class="text-xl m-1"><a href="#">&gt;about</a></li>
-          </ul>
-        </div>
-        <img
-          class="absolute top-1 w-24 bg-gray-800 p-2 mb-10"
-          src="./assets/Logo2_schlagschatten_narrow.png"
-          alt=""
-        />
-      </nav>
+  <body class="bg-gray-800 text-purple-50 flex flex-col items-center w-full">
+    <!--  navbar section -->
+    <nav
+      class="
+        relative
+        flex flex-col
+        justify-center
+        items-center
+        w-full
+        py-4
+        px-2
+      "
+    >
+      <h1 class="w-full h-5 relative text-2xl font-bold">
+        <span class="absolute right-1/2 mr-20">phi</span>
+        <span class="absolute left-1/2 ml-20">space</span>
+      </h1>
+      <div class="w-full h-0.5 my-4 bg-gray-500"></div>
+      <div class="w-full relative -top-4">
+        <ul
+          class="
+            mr-16
+            flex flex-wrap
+            justify-start
+            absolute
+            left-1/2
+            right-0
+            ml-20
+          "
+        >
+          <li class="text-xl m-1"><a href="#">&gt;home</a></li>
+          <li class="text-xl m-1"><a href="#">&gt;work</a></li>
+        </ul>
+        <ul
+          class="
+            ml-16
+            flex flex-wrap
+            justify-end
+            absolute
+            right-1/2
+            left-0
+            mr-20
+          "
+        >
+          <li class="text-xl m-1"><a href="#">&gt;contact</a></li>
+          <li class="text-xl m-1"><a href="#">&gt;about</a></li>
+        </ul>
+      </div>
+      <img
+        class="absolute top-1 w-24 bg-gray-800 p-2 mb-10"
+        src="./assets/Logo2_schlagschatten_narrow.png"
+        alt=""
+      />
+    </nav>
 
-      <main class="m-5 mt-10 max-w-screen-md">
-        <section>
-          <h2 class="text-5xl mt-32 leading-tight font-bold uppercase">
-            We create your digital
-          </h2>
+    <main class="m-5 mt-10 max-w-screen-md">
+      <!-- landing section -->
+      <section>
+        <h2 class="text-5xl mt-32 leading-tight font-bold uppercase">
+          We create your digital
+        </h2>
+        <div
+          class="
+            mt-4
+            relative
+            mx-auto
+            z-10
+            w-80
+            h-80
+            p-5
+            bg-gradient-to-br
+            from-pink-700
+            via-red-500
+            to-yellow-500
+          "
+        >
+          <div class="relative w-full h-full bg-gray-800">
+            <h2
+              class="
+                z-40
+                absolute
+                -top-10
+                -left-7
+                text-5xl
+                leading-tight
+                font-bold
+                uppercase
+              "
+            >
+              space
+            </h2>
+            <a
+              class="
+                z-40
+                absolute
+                -bottom-10
+                -right-7
+                text-5xl
+                leading-tight
+                font-bold
+                uppercase
+              "
+              href="#"
+              >&gt;hire</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- personal info section  -->
+      <section class="mt-32 flex flex-col items-center">
+        <h2 class="text-4xl mb-12 leading-tight font-bold uppercase">
+          This is us
+        </h2>
+        <div class="flex flex-col items-center my-8">
           <div
             class="
-              mt-4
-              relative
-              mx-auto
-              z-10
-              w-80
-              h-80
               p-5
-              bg-gradient-to-br
-              from-pink-700
-              via-red-500
-              to-yellow-500
+              rounded-full
+              bg-gradient-to-bl
+              from-green-400
+              via-blue-600
+              to-purple-900
             "
           >
-            <div class="relative w-full h-full bg-gray-800">
-              <h2
-                class="
-                  z-40
-                  absolute
-                  -top-10
-                  -left-7
-                  text-5xl
-                  leading-tight
-                  font-bold
-                  uppercase
-                "
-              >
-                space
-              </h2>
-              <a
-                class="
-                  z-40
-                  absolute
-                  -bottom-10
-                  -right-7
-                  text-5xl
-                  leading-tight
-                  font-bold
-                  uppercase
-                "
-                href="#"
-                >&gt;hire</a
-              >
+            <div class="p-3 bg-gray-800 rounded-full">
+              <img
+                class="w-40 h-40 object-cover rounded-full"
+                src="./assets/profileImageSmall.jpg"
+                alt="Felix Kirchhoff"
+              />
             </div>
           </div>
-        </section>
-        <section class="mt-32 flex flex-col items-center">
-          <h2 class="text-4xl mb-12 leading-tight font-bold uppercase">
-            This is us
-          </h2>
-          <div class="flex flex-col items-center my-8">
-            <div
-              class="
-                p-5
-                rounded-full
-                bg-gradient-to-bl
-                from-green-400
-                via-blue-600
-                to-purple-900
-              "
-            >
-              <div class="p-3 bg-gray-800 rounded-full">
-                <img
-                  class="w-40 h-40 object-cover rounded-full"
-                  src="./assets/profileImageSmall.jpg"
-                  alt="Felix Kirchhoff"
-                />
-              </div>
-            </div>
-            <div class="mt-12">
-              <h3 class="text-xl uppercase font-bold">
-                Felix &lt;phi&gt; Kirchhoff
-              </h3>
-              <p class="my-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
-                eveniet sapiente, voluptates molestiae error exercitationem,
-                enim assumenda quaerat laborum dolores. Cumque ad atque veniam
-                sequi adipisci quis earum officiis, quaerat libero saepe fuga
-                rerum, fugit aliquid ducimus.
-              </p>
-            </div>
+          <div class="mt-12">
+            <h3 class="text-xl uppercase font-bold">
+              Felix &lt;phi&gt; Kirchhoff
+            </h3>
+            <p class="my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
+              eveniet sapiente, voluptates molestiae error exercitationem, enim
+              assumenda quaerat laborum dolores. Cumque ad atque veniam sequi
+              adipisci quis earum officiis, quaerat libero saepe fuga rerum,
+              fugit aliquid ducimus.
+            </p>
           </div>
+        </div>
 
-          <div class="flex flex-col items-center my-8">
-            <div
-              class="
-                p-5
-                rounded-full
-                bg-gradient-to-br
-                from-red-200
-                via-pink-500
-                to-purple-900
-              "
-            >
-              <div class="p-3 bg-gray-800 rounded-full">
-                <img
-                  class="w-40 h-40 object-cover rounded-full"
-                  src="./assets/doge.png"
-                  alt="Felix Kirchhoff"
-                />
-              </div>
-            </div>
-            <div class="mt-12">
-              <h3 class="text-xl uppercase font-bold">Doge &lt;the coin&gt;</h3>
-              <p class="my-3">
-                Lorem wow ipsum dolor sit amet consectetur adipisicing elit.
-                Ullam beatae nobis nostrum ut tempore earum mollitia veritatis
-                qui aut eveniet sapiente, voluptates so much molestiae error
-                exercitationem, enim assumenda quaerat laborum dolores. Cumque
-                ad atque veniam sequi adipisci quis earum officiis, quaerat
-                libero saepe fuga rerum, fugit aliquid ducimus.
-              </p>
+        <div class="flex flex-col items-center my-8">
+          <div
+            class="
+              p-5
+              rounded-full
+              bg-gradient-to-br
+              from-red-200
+              via-pink-500
+              to-purple-900
+            "
+          >
+            <div class="p-3 bg-gray-800 rounded-full">
+              <img
+                class="w-40 h-40 object-cover rounded-full"
+                src="./assets/doge.png"
+                alt="Felix Kirchhoff"
+              />
             </div>
           </div>
-        </section>
-      </main>
-    </div>
+          <div class="mt-12">
+            <h3 class="text-xl uppercase font-bold">Doge &lt;the coin&gt;</h3>
+            <p class="my-3">
+              Lorem wow ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              beatae nobis nostrum ut tempore earum mollitia veritatis qui aut
+              eveniet sapiente, voluptates so much molestiae error
+              exercitationem, enim assumenda quaerat laborum dolores. Cumque ad
+              atque veniam sequi adipisci quis earum officiis, quaerat libero
+              saepe fuga rerum, fugit aliquid ducimus.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section  -->
+      <section>
+        <h2 class="text-3xl leading-tight font-bold uppercase mb-5">
+          Projects
+        </h2>
+        <ul class="flex flex-wrap justify-evenly">
+          <li
+            class="
+              p-4
+              m-5
+              bg-gradient-to-br
+              from-green-700
+              via-green-900
+              to-gray-900
+              shadow-lg
+              hover:from-green-500 hover:via-green-700 hover:to-gray-900
+            "
+          >
+            <a
+              href="https://circle-of-fifths-beige.vercel.app/"
+              target="_blank"
+            >
+              <div class="relative p-3 bg-gray-800 w-64 h-64 max-w-full">
+                <h3
+                  class="
+                    absolute
+                    -top-8
+                    -left-5
+                    text-2xl
+                    leading-tight
+                    font-bold
+                    uppercase
+                  "
+                >
+                  Circle of Fifths
+                </h3>
+                <img
+                  src="./assets/circle-prev.png"
+                  alt="Preview of the Circle of Fifths website"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </a>
+          </li>
+          <li
+            class="
+              p-4
+              m-5
+              bg-gradient-to-br
+              from-yellow-700
+              via-pink-900
+              to-gray-900
+              shadow-lg
+              hover:from-yellow-500 hover:via-pink-700 hover:to-gray-900
+            "
+          >
+            <a href="http://www.meerblick-9.de/" target="_blank">
+              <div class="relative p-3 bg-gray-800 w-64 h-64 max-w-full">
+                <h3
+                  class="
+                    absolute
+                    -top-8
+                    -left-5
+                    text-2xl
+                    leading-tight
+                    font-bold
+                    uppercase
+                  "
+                >
+                  Meerblick9
+                </h3>
+                <img
+                  src="./assets/meerblick9-prev.png"
+                  alt="Preview of the meerblick9 website"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </a>
+          </li>
+          <li
+            class="
+              p-4
+              m-5
+              bg-gradient-to-br
+              from-blue-800
+              via-indigo-800
+              to-gray-900
+              shadow-lg
+              hover:from-blue-600 hover:via-indigo-600 hover:to-gray-900
+            "
+          >
+            <a href="https://drawing-app-brown.vercel.app/" target="_blank">
+              <div class="relative p-3 bg-gray-800 w-64 h-64 max-w-full">
+                <h3
+                  class="
+                    absolute
+                    -top-8
+                    -left-5
+                    text-2xl
+                    leading-tight
+                    font-bold
+                    uppercase
+                  "
+                >
+                  Drawing App
+                </h3>
+                <img
+                  src="./assets/draw-prev.png"
+                  alt="Preview of an Drawing App"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </a>
+          </li>
+          <li
+            class="
+              p-4
+              m-5
+              bg-gradient-to-br
+              from-yellow-800
+              via-yellow-900
+              to-gray-900
+              shadow-lg
+              hover:from-yellow-600 hover:via-yellow-700 hover:to-gray-900
+            "
+          >
+            <a href="https://todo-app-one-tau.vercel.app/" target="_blank">
+              <div class="relative p-3 bg-gray-800 w-64 h-64 max-w-full">
+                <h3
+                  class="
+                    absolute
+                    -top-8
+                    -left-5
+                    text-2xl
+                    leading-tight
+                    font-bold
+                    uppercase
+                  "
+                >
+                  Todo App
+                </h3>
+                <img
+                  src="./assets/todo-prev.png"
+                  alt="Preview of a todo app"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
